@@ -98,6 +98,8 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+  margin: 0 25px;
+  font-weight: bold;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -105,3 +107,24 @@ a {
     color-scheme: dark;
   }
 }
+
+header {
+  width: auto;
+  background: aquamarine;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+}
+main {
+  width: auto;
+  display: flex;
+  justify-content: center;
+}
+footer {
+  width: auto;
+  display: flex;
+  justify-content: center;
+}
+
+
